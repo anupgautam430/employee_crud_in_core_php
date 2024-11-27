@@ -30,7 +30,12 @@ if (isset($_GET['message'])) {
 </head>
 <body>
     <h1>Employee List</h1>
+    <span>
     <a href="create.php" class="add-btn">Add New Employee</a>
+    </span>
+    <span>
+        <a href = "ImageCrud.php" class="add-btn">Image Crud</a>
+    </span>
     
     <table>
         <thead>
